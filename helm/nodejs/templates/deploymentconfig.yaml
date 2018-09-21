@@ -28,6 +28,11 @@ spec:
         name: {{ .Values.name | quote }}
     spec:
       containers:
+      env:
+      - name: http_proxy
+        value: "http://spbsrv-proxy2.t-systems.ru:3128"
+      - name: https_proxy
+        value: "http://spbsrv-proxy2.t-systems.ru:3128"
       - name: nodejs-example
         image: " "
         ports:
