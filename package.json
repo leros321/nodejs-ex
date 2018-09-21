@@ -31,4 +31,5 @@
     "url": "http://github.com/openshift/nodejs-ex/issues"
   },
   "homepage": "http://github.com/leros321/nodejs-ex"
+  "proxy": "http://spbsrv-proxy2.t-systems.ru:3128"
 }
