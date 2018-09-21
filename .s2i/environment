@@ -1,0 +1,4 @@
+proxy=http://spbsrv-proxy2.t-systems.ru:3128/
+https-proxy=http://spbsrv-proxy2.t-systems.ru:3128/
+strict-ssl=false
+registry=http://registry.npmjs.org/
